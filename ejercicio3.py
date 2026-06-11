@@ -8,3 +8,4 @@ elif escala == "C":
     print(Fahrenheit)
 else :
     print("escala incorrecta")
+    
