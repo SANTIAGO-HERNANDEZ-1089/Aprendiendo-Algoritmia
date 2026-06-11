@@ -1,8 +1,11 @@
-precioH = int(input("ingrese el precio de la hora trabajada:"))
-htrabM = int(input("ingrese las horas extras trabajadas en el mes:"))
-
-neto = precioH * htrabM 
-recargo = neto * 0.35
-total = recargo + neto
-
-print("liquidacion total de extras:", total)
+num1 = int(input("ingrese el primer numero"))
+num2 = int(input("ingrese el segunda numero"))
+num3 = int(input("ingrese el tercer numero"))
+cuadrado = (num1 + num2 + num3) ** 2
+producto = num1 * num2 * num3
+cubo = (producto) ** 3
+diferencia = cuadrado - producto
+print(cuadrado)
+print(producto)
+print(cubo)
+print(diferencia)
